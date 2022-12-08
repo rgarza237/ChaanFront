@@ -1,0 +1,75 @@
+.ContainerAMenuM {
+  display: flex;
+  flex-direction: column;
+  background-color: #736ced;
+  height: 100vh;
+  width: 281px;
+}
+.ConticonMenu {
+  height: 40px;
+  width: 40px;
+}
+.contenticonMenu {
+  width: 600px;
+}
+.aMenuM {
+  color: white;
+  font-size: 18;
+  margin-left: 24px;
+  margin-top: 42px;
+}
+
+.aOneMenuM {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 24px;
+  margin-top: 50px;
+}
+.aTwoMenuM {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 24px;
+  margin-top: 42px;
+}
+.iconDot {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-bottom: 50px;
+  padding-left: 24px;
+}
+.TitleMenuDot {
+  font-size: 24px;
+  color: white;
+  margin-left: 24px;
+  margin-top: 32px;
+}
+.iconMenu {
+  width: 40px;
+  height: 40px;
+}
+.appBarStyles {
+  background-color: transparent !important;
+  /*box-shadow: none;*/
+  width: 40px;
+  height: 40px;
+  left: 15px;
+  top: 15px;
+  right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .appBarStyles {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .appBarStyles {
+    display: none !important;
+  }
+}

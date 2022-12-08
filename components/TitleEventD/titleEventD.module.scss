@@ -1,0 +1,83 @@
+.ContainerEventD {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 35%;
+  margin-bottom: 15%;
+  margin-left: 24px;
+}
+.textEventDH1 {
+  color: #3b4559;
+  width: auto;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.textEventDTitle {
+  font-size: 20px;
+  color: #2a313f;
+  margin-top: 15px;
+}
+.btnDE {
+  border-radius: 8px;
+  background-color: #736ced;
+  color: white;
+  width: 90%;
+  height: 50px;
+  font-size: 16px;
+  border-style: none;
+  margin-bottom: 24px;
+}
+.btnDE:hover{
+  background-color: #9f9fed !important;
+  cursor: pointer !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .ContainerEventD {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-top: 150px;
+    margin-left: 5%;
+  }
+
+  .textEventDTitle {
+    padding: 0;
+    width: 300px;
+    font-size: 18px;
+  }
+  .textEventDH1 {
+    margin: 0;
+
+    font-size: 28px;
+  }
+  .btnDE {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContainerEventD {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+  }
+  .textEventDTitle {
+    padding: 0;
+    width: 500px;
+  }
+  .textEventDH1 {
+    margin: 0;
+  }
+  .btnDE {
+    width: 20%;
+  }
+}

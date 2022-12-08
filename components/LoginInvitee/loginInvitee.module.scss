@@ -1,0 +1,160 @@
+.containerLoginInvitee {
+  height: 71vh;
+}
+.contLoginInvitee {
+  margin-top: 25%;
+  margin-left: 38px;
+  margin-bottom: 32px;
+}
+.btnL:hover {
+  background-color: #9f9fed;
+  cursor: pointer;
+}
+.aContaseñaInvitee:hover {
+  color: #9f9fed;
+  cursor: pointer;
+}
+.cardLoginInvitee {
+  width: 327px;
+  height: 180px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 30px;
+}
+.inputLoginInvitee {
+  width: 270px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f7f7f7;
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
+.contentLoginInvitee {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btnLI {
+  background-color: #736ced;
+  color: white;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  font-size: 16px;
+  margin-top: 32px;
+}
+.btnLI:hover {
+  background-color: #9f9fed;
+  cursor: pointer;
+}
+.contetaContaseñaInvitee {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aContaseñaInvitee {
+  color: #736ced;
+  font-size: 14px;
+  margin-top: 32px;
+}
+.upInputLoginInvitee {
+  font-size: 12px;
+  color: #3b4559;
+  margin-bottom: 0;
+}
+.lineLoginInvitee {
+  height: 5px;
+  margin-left: 0%;
+  margin-right: 90%;
+  margin-bottom: 24px;
+  background-color: #3b4559;
+  border-radius: 5px;
+}
+.titleLoginInvitee {
+  color: #3b4559;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.contImgLoginInviteeW {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .contentLoginInvitee {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contImgLoginInviteeW {
+    display: flex;
+    height: 10px;
+  }
+  .imgLoginInviteeW {
+    margin-top: 65px;
+    width: 350px;
+    height: 535px;
+    object-fit: cover;
+  }
+  .containerLoginInvitee {
+    height: 86vh;
+    margin-left: 30px;
+  }
+  .containerLoginInviteeAndImg {
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+    margin: 25px;
+    padding: 0;
+  }
+  .cardLoginInvitee {
+    padding: 32px, 16px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .containerLoginInvitee {
+    height: 86vh;
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .containerLoginInviteeAndImg {
+    margin-left: 70px;
+  }
+  .imgLoginInviteeW {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .containerLoginInvitee {
+    margin-left: 40px;
+    width: 300px;
+  }
+  .cardLoginInvitee {
+    width: 510px;
+    height: 200px;
+  }
+  .upInputLoginInvitee {
+    margin-top: 25px;
+  }
+  .inputLoginInvitee {
+    width: 450px;
+    height: 55px;
+  }
+  .contetaContaseñaInvitee {
+    margin-left: 100px;
+  }
+  .btnL {
+    margin-left: 90px;
+  }
+}

@@ -1,0 +1,141 @@
+.ContainerEventDUser {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-left: 24px;
+}
+
+.btnDE:hover {
+  background-color: #9f9fed;
+  cursor: pointer;
+}
+
+.ancorDE:hover {
+  color: #9f9fed;
+  cursor: pointer;
+}
+
+.textEventDH1User {
+  color: #3b4559;
+  width: auto;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.textEventDTitleUser {
+  font-size: 20px;
+  color: #2a313f;
+  margin-top: 15px;
+}
+
+.contentbtnDE {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 327px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btnDE {
+  border-radius: 8px;
+  background-color: #736ced;
+  color: white;
+  width: 90%;
+  height: 50px;
+  font-size: 16px;
+  border-style: none;
+  margin-bottom: 24px;
+}
+
+.btnDEAI {
+  border-radius: 8px;
+  background-color: transparent;
+  color: #736ced;
+  width: 90%;
+  height: 50px;
+  font-size: 16px;
+  border-style: none;
+  margin-bottom: 24px;
+  border: 1px solid #736ced;
+}
+
+.ancorDE {
+  color: #736ced;
+  -webkit-text-decoration: underline #736ced;
+          text-decoration: underline #736ced;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .ContainerEventDUser {
+    display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-top: 40px;
+    margin-left: 5%;
+  }
+  .textEventDTitleUser {
+    padding: 0;
+    width: 300px;
+    font-size: 18px;
+  }
+  .textEventDH1User {
+    margin: 0;
+    font-size: 28px;
+  }
+  .contentbtnDE {
+    width: 300px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .ancorDE {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContainerEventDUser {
+    margin-top: 40px !important;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-top: 100px;
+  }
+  .textEventDTitleUser {
+    padding: 0;
+    width: 500px;
+  }
+  .textEventDH1User {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=titleEventDUser.module.css.map */

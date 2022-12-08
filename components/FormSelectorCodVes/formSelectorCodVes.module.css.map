@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EACnB,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "formSelectorCodVes.module.scss"
+    ],
+    "names": [],
+    "file": "formSelectorCodVes.module.css"
+}

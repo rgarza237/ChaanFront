@@ -1,0 +1,92 @@
+.ContainerTitleHBnt {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 35%;
+  margin-bottom: 15%;
+}
+.btnHome:hover {
+  background-color: #9f9fed !important;
+  cursor: pointer !important;
+}
+.textH1 {
+  color: #736ced;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.textTitle {
+  font-size: 20px;
+  color: #2a313f;
+  margin-top: 0;
+  padding: 0 20px 0 20px;
+}
+.btnHome {
+  background-color: #736ced !important;
+  width: 327px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ContainerTitleHBnt {
+    margin-top: 50px;
+    margin-left: 5%;
+  }
+  .ContainerTitleHBnt {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+  }
+  .textTitle {
+    padding: 0;
+    width: 300px;
+    font-size: 1.3rem;
+  }
+  .textH1 {
+    margin: 0;
+    width: 10px;
+    font-size: 1.8rem;
+  }
+  .btnHome {
+    width: 227px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .ContainerTitleHBnt {
+    margin-top: 0px;
+  }
+  .btnHome:hover {
+    background-color: #9f9fed;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContainerTitleHBnt {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+  }
+  .ContainerTitleHBnt {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+  }
+  .textTitle {
+    padding: 0;
+    width: 500px;
+    font-size: 2rem;
+  }
+  .textH1 {
+    margin: 0;
+    font-size: 3.5rem;
+  }
+  .btnHome {
+    width: 350px;
+  }
+}

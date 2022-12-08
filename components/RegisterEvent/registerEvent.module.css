@@ -1,0 +1,315 @@
+@charset "UTF-8";
+.containerFormRegisterEvent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 125vh;
+}
+
+.inputLoginDE {
+  width: 270px;
+  height: 120px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f7f7f7;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  color: #3b4559;
+}
+
+.contCardLogin {
+  margin-top: 24px;
+}
+
+.contCardLoginB {
+  margin-top: 0;
+}
+
+.containerFormReg {
+  height: 110vh;
+}
+
+.contLogin {
+  margin-top: 75px;
+  margin-left: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btnL:hover {
+  background-color: #9f9fed;
+  cursor: pointer;
+}
+
+.cardLogin {
+  width: 327px;
+  height: 840px !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.containerFormCDV {
+  width: 265px;
+  height: 48px;
+  color: #92959a;
+  border: none;
+  background: #f7f7f7;
+  padding-left: 12px;
+}
+
+.containerFormDE {
+  width: 265px !important;
+  height: 48px !important;
+  color: #92959a !important;
+  border: none !important;
+  background: #f7f7f7 !important;
+  padding-left: 12px !important;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.textFormDE {
+  width: 95% !important;
+  color: #92959a !important;
+}
+
+.containerFormTE {
+  width: 265px !important;
+  height: 48px !important;
+  color: #92959a !important;
+  border: none !important;
+  background: #f7f7f7 !important;
+  padding-left: 12px !important;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.textFormTE {
+  width: 95% !important;
+}
+
+.inputLE {
+  width: 270px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f7f7f7;
+  margin-bottom: 12px;
+  padding-left: 16px;
+}
+
+.inputLogin {
+  width: 270px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f7f7f7;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  color: #3b4559;
+}
+
+.contentLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btnL {
+  background-color: #736ced;
+  color: white;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  font-size: 16px;
+  margin-top: 32px;
+}
+
+.contetaContaseña {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-top: 16px;
+  margin-left: 60px;
+}
+
+.aContaseña {
+  color: #736ced;
+  font-size: 14px;
+}
+
+.upInputLogin {
+  font-size: 12px;
+  color: #3b4559;
+  padding-bottom: 8px;
+}
+
+.lineLogin {
+  height: 5px;
+  margin-left: 0%;
+  margin-right: 90%;
+  margin-bottom: 24px;
+  background-color: #3b4559;
+  border-radius: 5px;
+}
+
+.titleForm {
+  color: #3b4559;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contImgLoginW {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .containerFormRegisterEvent {
+    height: 105vh;
+  }
+  .containerFormReg {
+    height: 90vh;
+  }
+  .cardLogin {
+    width: 600px !important;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .contentLogin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 40px;
+  }
+  .containerFormReg {
+    height: 79vh;
+  }
+  .contImgLoginW {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 10px;
+  }
+  .imgLoginW {
+    margin-top: 65px;
+    width: 350px;
+    height: 535px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .containerLogin {
+    height: 80vh;
+  }
+  .containerLoginAndImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 800px;
+  }
+  .containerFormRegisterEvent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 750px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+  }
+  .cardLogin {
+    width: 655px !important;
+  }
+  .contForm {
+    -webkit-padding-start: 40px;
+            padding-inline-start: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .containerFormRegisterEvent {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh !important;
+  }
+  .cardLogin {
+    width: 1172px !important;
+    height: 500px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 32px;
+  }
+  .btnL {
+    margin-top: 0;
+  }
+  .contCardLoginB {
+    margin-top: 24px;
+  }
+}
+/*# sourceMappingURL=registerEvent.module.css.map */

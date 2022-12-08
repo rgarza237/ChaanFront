@@ -1,0 +1,53 @@
+.ContainerCardAbout {
+  color: #3b4559;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 10%;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.ContainerCardAbout {
+  display: flex;
+  flex-direction: column;
+}
+.iconSim {
+  width: 50px;
+}
+.ContainerSimbolos {
+  border-radius: 30px;
+  width: 90%;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ContainerCardAbout {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .ContainerCardAbout {
+    height: 150px;
+  }
+  .ContainerSimbolos {
+    justify-content: space-around;
+    width: 220px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .ContainerSimbolos {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContainerSimbolos {
+   
+    width: 300px;
+  }
+}

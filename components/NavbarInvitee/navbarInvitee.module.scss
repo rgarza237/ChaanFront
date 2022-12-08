@@ -1,0 +1,134 @@
+.NavScssW {
+  display: none;
+}
+
+.NavScssM {
+  display: flex;
+  margin-top: 12px;
+}
+
+.containerIconMenu {
+  width: 30%;
+}
+.containerLogo {
+  width: 33%;
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+}
+
+.iconMenu {
+  width: 40px;
+}
+.iconLogo {
+  width: 55px;
+}
+
+.textNav {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #3b4559;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .NavScssM {
+    display: none;
+  }
+  .NavScssW {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  .contentancorMenuW {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+  .contentancorMenuWTwo {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .contentancorMenuWThree {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: #736ced;
+    font-weight: bold;
+  }
+  .ancorStylesOne {
+    font-size: 14px;
+    color: #3B4559;
+    font-weight: bold;
+  }
+  .ancorStylesTwo {
+    font-size: 14px;
+    color: #3B4559;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .NavScssM {
+    display: none;
+    justify-content: space-between;
+  }
+  .contentancorMenuWTwo {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .contentancorMenuWThree {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: #736ced;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .NavScssM {
+    display: none;
+  }
+  .contentancorMenuWTwo {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  .contentancorMenuWThree {
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: #736ced;
+    font-weight: bold;
+  }
+  .NavScssW {
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+}

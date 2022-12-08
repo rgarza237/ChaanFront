@@ -1,0 +1,61 @@
+.iconDetEvt {
+  color: #736ced;
+  width: 20px;
+  margin-right: 32px;
+}
+
+.lineaH {
+  background-color: #c8c9cb;
+  height: 2px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.conticonDetEvtTitle {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  margin-left: 28px;
+  color: #3b4559;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textDE {
+  font-size: 16px;
+  color: #3b4559;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+}
+
+.containerDE {
+  margin-top: 130px;
+}
+
+.mapsDetEvt {
+  width: 88%;
+  margin-bottom: 24px;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .containerDE {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .containerDE {
+    margin-top: 220px;
+  }
+}
+/*# sourceMappingURL=cardDetailEvent.module.css.map */

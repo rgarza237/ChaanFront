@@ -1,0 +1,78 @@
+.ContainerCardAbout {
+  color: #3b4559;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.ContainerCardAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.iconSim {
+  width: 50px;
+}
+
+.ContainerSimbolos {
+  border-radius: 30px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 10px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ContainerCardAbout {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .ContainerCardAbout {
+    height: 150px;
+  }
+  .ContainerSimbolos {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 220px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .ContainerSimbolos {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContainerSimbolos {
+    width: 300px;
+  }
+}
+/*# sourceMappingURL=cardAbout.module.css.map */

@@ -1,0 +1,105 @@
+.contImgMyEventsW {
+  display: none;
+}
+.containerMyEventsAndImg {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+ height: 700px;
+}
+.btnLME {
+  background-color: #736ced;
+  color: white;
+  border-radius: 8px;
+  width: 364px;
+  height: 48px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-bottom: 42px;
+}
+.btnLMEW {
+  background-color: #736ced;
+  color: white;
+  border-radius: 8px;
+  width: 364px;
+  height: 48px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-bottom: 42px;
+  display: none;
+}
+.lineMyEvents {
+  height: 5px;
+  margin-left: 0%;
+  margin-right: 50%;
+  margin-bottom: 24px;
+  background-color: #3b4559;
+  border-radius: 5px;
+}
+.contMyEventsinfo {
+  width: 364px;
+  height: 68px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-top: 24px;
+}
+.titleEvnt {
+  font-size: 16px;
+  color: #3b4559;
+  text-transform: uppercase;
+}
+.ancorTitleEvnt {
+  text-decoration: underline #736ced;
+  color: #736ced;
+  font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .btnLMEW {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .btnLME {
+    display: none;
+  }
+  .contMyEvents {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .lineMyEvents {
+    width: 50px;
+  }
+  .contMyEventsinfo {
+    width: 700px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .containerMyEventsAndImg {
+    height: 820px;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .containerMyEventsAndImg {
+    height: 950px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .containerMyEventsAndImg {
+    height: 570px;
+  }
+}

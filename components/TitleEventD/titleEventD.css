@@ -1,0 +1,86 @@
+.ContainerTitleHBnt {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 35%;
+  margin-bottom: 15%;
+}
+
+.textH1 {
+  color: #736ced;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.textTitle {
+  font-size: 20px;
+  color: #2a313f;
+  margin-top: 0;
+  padding: 0 20px 0 20px;
+}
+
+.btnHome {
+  background-color: #736ced !important;
+}
+
+@media only screen and (min-width: 728px) {
+  .ContainerTitleHBnt {
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  .ContainerTitleHBnt {
+    display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+  }
+  .textTitle {
+    padding: 0;
+    width: 300px;
+    font-size: 1.3rem;
+  }
+  .textH1 {
+    margin: 0;
+    width: 10px;
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContainerTitleHBnt {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+  }
+  .ContainerTitleHBnt {
+    display: block;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: left;
+    margin-bottom: 10%;
+  }
+  .textTitle {
+    padding: 0;
+    width: 500px;
+    font-size: 2rem;
+  }
+  .textH1 {
+    margin: 0;
+    font-size: 3.5rem;
+  }
+}
+/*# sourceMappingURL=titleEventD.css.map */

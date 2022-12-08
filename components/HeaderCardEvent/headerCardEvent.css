@@ -1,0 +1,37 @@
+.ContainerVideoM {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  z-index: -2;
+  border-radius: 0px 0px 80px 80px;
+  background-color: aqua;
+}
+
+.ContainerVideoW {
+  display: none;
+}
+
+@media only screen and (max-width: 780px) {
+  .ContainerVideoW {
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .ContainerVideoM {
+    display: none;
+  }
+  .ContainerVideoW {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 0;
+    z-index: -2;
+    border-radius: 0px 0px 80px 80px;
+    display: block;
+  }
+}
+/*# sourceMappingURL=headerCardEvent.css.map */

@@ -1,0 +1,166 @@
+.contentCardMyEventsTitleAndCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-left: 24px;
+  margin-bottom: 32px;
+  color: #3b4559;
+  height: auto !important;
+}
+
+.contInfoMyEvents {
+  width: 100%;
+}
+
+.lineaH {
+  background-color: #c8c9cb;
+  height: 2px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.containerCardMyEvents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.cardMyEventsDurazno {
+  width: 120px;
+  height: 156px;
+  background-color: #ffb292;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  color: white;
+}
+
+.cardMyEventsMorado {
+  width: 120px;
+  height: 156px;
+  background-color: #b67ffc;
+  border-radius: 8px;
+  margin-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  color: white;
+}
+
+.cardMyEventsPink {
+  width: 80px;
+  height: 156px;
+  background-color: #ed8bfd;
+  border-radius: 8px 0 0 8px;
+  margin-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  color: white;
+}
+
+.cardMyEventsTitle {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contentCardMyEventsTitleAndCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 200px;
+  }
+  .containerCardMyEvents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .cardMyEventsDurazno {
+    width: 170px;
+    height: 400px;
+  }
+  .cardMyEventsMorado {
+    width: 170px;
+    height: 400px;
+  }
+  .cardMyEventsPink {
+    width: 100px;
+    height: 400px;
+  }
+  .cardMyEventsTitle {
+    font-size: 16px;
+  }
+  .containerCardMyEvents {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contentCardMyEventsTitleAndCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 500px;
+    margin-bottom: 100px;
+  }
+  .cardMyEventsPink {
+    width: 170px;
+  }
+  .contInfoMyEvents {
+    width: 40%;
+    margin-left: 30px;
+  }
+}
+/*# sourceMappingURL=cardsMyEventsOrganizer.module.css.map */

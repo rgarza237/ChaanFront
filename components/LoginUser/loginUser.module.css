@@ -1,0 +1,193 @@
+@charset "UTF-8";
+.containerLogin {
+  height: 72vh;
+}
+
+.contLogin {
+  margin-top: 25%;
+  margin-left: 38px;
+}
+
+.btnL:hover {
+  background-color: #9f9fed;
+  cursor: pointer;
+}
+
+.aContaseña:hover {
+  color: #9f9fed;
+  cursor: pointer;
+}
+
+.cardLogin {
+  width: 327px;
+  height: 260px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px 30px;
+}
+
+.inputLogin {
+  width: 270px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f7f7f7;
+  margin-bottom: 12px;
+  padding-left: 12px;
+}
+
+.contentLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btnL {
+  background-color: #736ced;
+  color: white;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  font-size: 16px;
+  margin-top: 32px;
+}
+
+.contetaContaseña {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-top: 16px;
+  margin-left: 60px;
+}
+
+.aContaseña {
+  color: #736ced;
+  font-size: 14px;
+}
+
+.upInputLogin {
+  font-size: 12px;
+  color: #3b4559;
+  margin-bottom: 0;
+}
+
+.lineLogin {
+  height: 5px;
+  margin-left: 0%;
+  margin-right: 90%;
+  margin-bottom: 24px;
+  background-color: #3b4559;
+  border-radius: 5px;
+}
+
+.titleLogin {
+  color: #3b4559;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contImgLoginW {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .contentLogin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 40px;
+  }
+  .contImgLoginW {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 10px;
+    margin-right: 30px;
+  }
+  .imgLoginW {
+    margin-top: 65px;
+    width: 350px;
+    height: 535px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .containerLogin {
+    height: 80vh;
+  }
+  .containerLoginAndImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .contImgLoginW {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contImgLoginW {
+    margin-right: 50px;
+  }
+  .imgLoginW {
+    width: 600px;
+    height: 500px;
+    margin-left: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .containerLogin {
+    margin-left: 10px;
+    width: 300px;
+  }
+  .cardLogin {
+    width: 510px;
+    height: 300px;
+  }
+  .upInputLogin {
+    margin-top: 25px;
+  }
+  .inputLogin {
+    width: 450px;
+    height: 55px;
+  }
+  .contetaContaseña {
+    margin-left: 150px;
+  }
+  .btnL {
+    margin-left: 90px;
+  }
+}
+/*# sourceMappingURL=loginUser.module.css.map */
